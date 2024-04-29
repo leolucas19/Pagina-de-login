@@ -3,9 +3,10 @@ function verificar() {
     var ema = document.querySelector("input#email").value
     var sen = document.getElementById('senha').value
 
-    if (nom == "admin" && ema == "admin" && sen == "19"){
-        window.alert(`seja bem vindo ${nom}`)
+    if (nom == "lua" && ema == "agosto" && sen == "19"){
+        window.location.href = "filme/index.html";
+        window.alert(`Bom filminho minha garota<3`)
     } else {
-        window.alert("ocorreu um erro por aqui")
+        window.alert("Digitou algo errado hein toquinho -_-")
     }
 }
